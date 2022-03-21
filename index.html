@@ -1,0 +1,578 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Tres Mercari Group</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--links-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon_qLI_icon.ico">
+</head>
+
+
+<body>
+<script>
+    function snap(destination) {
+        if (Math.abs(destination - window.scrollY) < 3) {
+            scrollTo(window.scrollX, destination);
+        } else if (Math.abs(destination - window.scrollY) < 200) {
+            scrollTo(window.scrollX, window.scrollY + ((destination - window.scrollY) / 2));
+            setTimeout(snap, 20, destination);
+        }
+    }
+    var timeoutId = null;
+    addEventListener("scroll", function() {
+        if (timeoutId) clearTimeout(timeoutId);
+        timeoutId = setTimeout(snap, 200, parseInt(document.getElementById('snaptarget').style.top));
+    }, true);
+
+ </script>
+    <!-- <div class="bg"></div> -->
+  <header id="home">
+    <div class="navscroll" id="snaptarget">
+        <div class="visible-xs">
+            <div onclick="openNav()" class="mobnav">
+               <div> </div>
+               <div> </div>
+            </div>
+    </div>
+    <div class="tm-header overlay" id="myNav">
+        <!--tm-header-->
+     <div class="container-fluid">
+      <nav class="topheight overlay-content posrel">
+        <!--<div class="visible-xs navfig">
+        <figure>
+            <img src="img/ahead-copper.png" alt="image">
+        </figure>
+        </div>-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">Who We Are</a></li>
+            <li><a href="#team">Leadership</a></li>
+            <li><a href="#brand"> Our Brands </a></li>
+            <li><a href="#career">Careers</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+       </nav>
+     </div>
+    <div class="visible-xs">
+        <div class="closebtn" onclick="closeNav()"> 
+          <figure><img src="img/cross.svg" alt=""></figure>
+         </div>
+    </div>
+    </div>
+    </div>
+    <!--tm-header ends-->
+  </header>
+
+    <div class="headborder"></div>
+
+
+    <div class="logosec">
+     <div class="container-fluid">
+    <figure><img src="img/tm-logo.png" alt="logo"></figure>
+    
+    <div class="logotext">
+    <h1 class="textdesktop">
+     From India to the World
+    </h1>
+    <div class="logonavtext">
+    <h1>
+        <p class="text-left"> From India </p>
+        <p class="text-center"> to </p>
+        <p class="text-right"> The World</p>
+    </h1>
+    </div>
+    </div>
+</div>
+    </div> <!--logosec-->
+
+    <div class="t-body">
+    <div class="container-fluid">
+    <div class="t-about  posrel">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="rbrder">
+            <p> Welcome to the Tres Mercari Group,
+             a company </p>
+            <p>having a portfolio of growing consumer brands </p>
+            <p> comprised of Amortela, Navalya
+             and ZariVastram.</p>
+         </div>
+        </div>
+        <div class="line2 visible-xs"></div>
+        <div class="aboutline"></div>
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="lbrder">
+            <p>We are a team of passionate,
+            fashion conscious </p>
+            <p> people geared  up to craft best in-class, shopping </p>
+            <p> experience for our customers in fashion retailing.</p>
+            </div>
+        </div>
+    </div>
+    </div> <!--t-about-->
+
+
+    <div class="aboutanim animsec" id="about"></div>    
+     <div class="t-about2 commonbrder c-padding i"> 
+     <div class="border1">
+        <!--desktop and tab-->
+        <div class="head hidden-xs">
+            <h2> <span class="fbig">F</span>ROM <span class="fbig">T</span>HE <span class="fbig">F</span>USION 
+            OF <span class="fbig">F</span>ASHION AND <span class="fbig">T</span>ECHNOLOGY </h2>
+        </div>
+         <!--mobie-->
+         <div class="head visible-xs">
+            <h3> <span class="fbig">A</span>BOUT <span class="fbig">U</span>S  </h3>
+            <div class="head-text2 posrel">
+           <h4> 
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="fbig">F</span>ROM <span class="fbig">T</span>HE <span class="fbig">F</span>USION 
+            OF <span class="fbig">F</span>ASHION AND <span class="fbig">T</span>ECHNOLOGY
+            <i class="fa fa-quote-right" aria-hidden="true"></i>            
+             </h4>
+            </div>
+        </div>
+        <div class="borderline"></div>
+        <div class="borderright abright"></div>
+     </div> <!--brder1-->
+
+      <div class="border2">
+        <div class="borderleft ableft"></div>
+        <div class="btext">
+
+        <p  class="v"> It all began in 2015 when Indarjith and Tija together met Vamsi at an informal convene in Chennai, a southern coastal city of India. The three had worked earlier on multiple projects in the fashion industry as acquaintances and developed a rapport and understanding that led them to co-founding the Tres Mercari Group.</p>
+
+        <p  class="t"> They had three things in common: Each held a unique expertise in the business of fashion, retail and technology and each held all the others in high regard and together they adhered to the belief that fashion needed a forum, a stage, or a force to express and enhance a widening awareness of the fashion business in India and were determined to promote fashion from India to the World.   </p>
+
+        <p> Thus, Tres Mercari Group, conceived at an informal meeting in 2015 became an organization in 2016, with a place, a purpose, by-laws, officers and many eager to be members and partners there on in the journey.</p>
+
+        </div>
+
+        <div class="animsec  teamanim">a</div>
+        <div class="borderline"></div>
+        <div class="borderlink">
+            <a href="about.html"> <span class="fbig">M</span>ore <span class="fbig">A</span>bout 
+            <span class="fbig">U</span>s 
+            <img class="f2 cf" src="img/ahead-copper.png" alt="image">
+            <img class="f1 cf" src="img/ahead-white.png" alt="image">
+             </a>
+        </div>
+        <div class="clearfix"></div>
+     </div> <!--brder2-->
+    </div> <!--tabout2-->
+
+    <!--team-->
+  
+
+    <div class="animsec" id="team"></div>
+    <div class="t-team c-padding">
+      <!--mobie-->
+         <div class="visible-xs">
+            <div class="mobtext">
+                <h4> <span class="fbig">L</span>EADERSHIP </h4>
+            </div>
+        </div>
+    <div class="teamleft posrel">
+    <div class="i-brder ib"></div>
+    <div class="row">  
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="imagesec">
+              <figure><img src="img/Tija.png" alt="image">
+              </figure>
+              <div class="i-link">
+                <ul>
+                    <li><a href="https://www.facebook.com/tija.indarjith"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/tijaindarjith">   <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul> 
+              </div>
+            </div>
+        </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <div class="imagedesc">
+            <h3> Tija Indarjith, Co-Founder/Chief Design Officer</h3>
+            <p> Tija heads the Design function of the group and is adept at handling domestic and international business connects and running distribution and logistics across India and abroad. Along side Indarjith, Tija manages merchandising and distributions aspects of the business.</p>
+        </div>
+        </div>
+    </div>
+    </div> <!--teamleft-->
+
+      <div class="teamright posrel hidden-xs">
+    <div class="i-brder vb"></div>
+    <div class="row">  
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <div class="imagedesc">
+            <h3> Indarjith Mathivanan, Co-Founder/Chief Executive Officer </h3>
+
+            <p class="brderbrand"> Indarjith hails from an industrial family and has vast experience in various business domains including textiles, education and technology. He has expertise across Merchandising, Designing, Production Management, Marketing and Brand Creation. His family owns brand of textile products from garment to home textile.</p>
+        </div>
+        </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="imagesec">
+              <figure><img src="img/Indarjith.png" alt="image">
+              </figure>
+              <div class="i-link">
+                <ul>
+                    <li><a href="https://www.facebook.com/indarjithmathivanan"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/indarjithm">   <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul> 
+              </div>
+            </div>
+        </div>
+    </div>
+    </div> <!--teamright-->
+     <div class="teamleft posrel visible-xs">
+    <div class="i-brder vb"></div>
+    <div class="row">  
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="imagesec">
+              <figure><img src="img/Indarjith.png" alt="image">
+              </figure>
+              <div class="i-link">
+                <ul>
+                    <li><a href="https://www.facebook.com/indarjithmathivanan"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/indarjithm">   <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul> 
+              </div>
+            </div>
+        </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <div class="imagedesc">
+            <h3> Indarjith Mathivanan, Co-Founder/Chief Executive Officer  </h3>
+            <p> Indarjith hails from an industrial family and has vast experience in various business domains including textiles, education and technology. He has expertise across Merchandising, Designing, Production Management, Marketing and Brand Creation. His family owns brand of textile products from garment to home textile.</p>
+        </div>
+        </div>
+    </div>
+    </div> <!--teamleft-->
+     <div class="teamleft posrel bdanim">
+    <div class="i-brder tb"></div>
+    <div class="row">  
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="imagesec">
+              <figure><img src="img/Vamsi.png" alt="image">
+              </figure>
+              <div class="i-link">
+                <ul>
+                    <li><a href="https://www.facebook.com/vamsikrishnayeluri"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/accessvamsi">   <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul> 
+              </div>
+            </div>
+        </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <div class="imagedesc">
+            <h3> Vamsi Yeluri, Co-Founder/Chief Technology Officer </h3>
+
+            <p class="brderbrand"> Vamsi is a seasoned technologist and an IT industry veteran with deep expertise in eCommerce and Omni Channel Retail. He leads the company’s technology strategy globally, driving growth, business and oversees the creation of new products and service ideas including strategy and innovation.</p>
+        </div>
+        </div>
+    </div>
+    </div> <!--teamleft-->
+    </div> <!--team-->
+    </div> <!--cfluid-->
+
+    <!--portfolio-->
+
+     <div class="brderbrand brderheight"  id="brand"></div>
+         <div class="visible-xs">
+            <div class="mobtext">
+                <h4> <span class="fbig">O</span>UR <span class="fbig">B</span>RANDS </h4>
+            </div>
+        </div>
+    <div class="t-brand c-padding">
+    <div class="container-fluid">
+    <div class="brandleft">
+        <div class="row">  
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+            <!--<h5>  Amortela </h5>-->
+           <figure><img src="img/amortela-100x100.png" alt="image"></figure>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+            <p class="slide-left">Amortela, launched in 2016 is all about your love for fabrics. We love dressing the new age women throughout the world who just love to be bold, adventurous and fashion conscious. Our designs are clean and contemporary crafted meticulously from premium fabrics.</p>
+        </div>
+        </div>  
+    </div>   
+
+     <div class="brandright">
+        <div class="row ca">  
+         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 visible-xs">
+           <!-- <h5> Navalya </h5>-->
+             <figure><img src="img/navalya-100x100.png" alt="image"></figure>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+            <p class="slide-right">Navalya is a new age contemporary premium ethnic wear brand in the country. Launched in 2016, soon became a place where every modern women finds the most impeccably finished fabric wear which speaks to her of, individuality, beauty and meets all her ethnic fashion needs.</p>
+        </div>
+        <div class="col-lg-2 col-md-10 col-sm-10 col-xs-12 hidden-xs">
+           <!-- <h5> Navalya </h5> -->
+             <figure><img src="img/navalya-100x100.png" alt="image">
+              </figure>
+        </div
+        >
+        </div>  
+    </div>  
+
+       <div class="brandleft">
+        <div class="row">  
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+            <!--<h5>  ZariVastram </h5>-->
+            <figure><img src="img/zari-100x100.png" alt="image">
+              </figure>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+            <p class="slide-left careeranim">ZariVastram is all about taking on the high street to offer you original and authentic ethnic wear under affordable price options without compromise on the quality and elevate the traditional clothing heritage of the country.</p>
+        </div>
+        </div>  
+    </div>  
+    </div>
+    </div> <!--tbrand-->
+      
+
+   <div class="container-fluid">
+    <!--career-->
+
+           <div class="t-careers c-padding" id="career">
+          <div class="mobtext head visible-xs">
+            <h4> <span class="fbig">C</span>AREERS </h4>
+            <div class="head-text2 posrel">
+          <h4>
+          <i class="fa fa-quote-left" aria-hidden="true"></i> 
+            <span class="fbig">F</span>OR <span class="fbig">T</span>HE <span class="fbig">L</span>OVE 
+            OF <span class="fbig">C</span>ODING AND <span class="fbig">C</span>OUTURE
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+         </h4>
+
+            </div>
+        </div>
+         <div class="commonbrder hoverbg"> 
+     <div class="border1">
+        <div class="head hidden-xs"><h3> 
+<span class="fbig">F</span>OR<span class="fbig"> T</span>HE <span class="fbig">L</span>OVE 
+            OF <span class="fbig">C</span>ODING AND <span class="fbig">C</span>OUTURE </h3></div>
+        <div class="borderline"></div>
+        <div class="borderright cright"></div>
+     </div> <!--brder1-->
+
+      <div class="border2">
+        <div class="borderleft cleft"></div>
+
+        <div class="btext">
+        
+        <div class="careerblock"> 
+        <h4> Graphic Designer </h4>
+        <div class="row">   
+        <div class="col-xs-6 col-sm-6">
+        <span> 3 - 7yrs </span>
+        </div>  
+        <div class="col-xs-6 col-sm-6 text-right">
+        <span>Hyderabad</span>
+
+        </div>  
+        </div>
+        <div class="careertext">
+        <p> We are looking for a highly motivated, strategic, and self-driven individual to join the team as a Graphic Designer with 3 - 7 years of Experience. <span>
+<a href="https://www.hirist.com/j/tres-mercari-graphics-designer-ui-ux-illustrator-infographics-2-7-yrs-262300.html" target="_blanck"
+class="posrel">More</a></span>  </p>
+        </div> 
+   
+        </div> <!--careerblock-->
+       
+        <div class="careerblock">
+        <h4> Frontend Developer </h4>
+        <div class="row">   
+        <div class="col-xs-6 col-sm-6">
+        <span> 2 - 6 yrs </span>
+        </div>  
+        <div class="col-xs-6 col-sm-6 text-right">
+        <span>Hyderabad</span>
+        </div>  
+        </div>
+        <div class="careertext">
+        <p>  We are looking for a highly motivated, strategic, and self-driven individual to join the team as a Front-end Developer. As a Frontend Developer, you will be plugging in right-away, leading the UI development efforts and your responsibilities will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application.  <span><a href="https://www.hirist.com/j/tres-mercari-frontend-developer-html-css-angularjs-2-5-yrs-262299.html" target="_blanck" class="posrel">More</a></span>  </p>
+        </div> 
+        </div> <!--careerblock-->
+
+        <div class="clearfix"></div>
+        </div> <!--btext-->
+        <div class="brderform animsec">a</div>
+        <div class="borderline"></div>
+        <div class="borderlink"  style="visibility: hidden;">
+        <a href="career.html"> <span class="fbig">M</span>ore <span class="fbig">0</span>penings            
+         <img class="f2 cf" src="img/ahead-copper.png" alt="image">
+        <img class="f1 cf" src="img/ahead-white.png" alt="image">
+        </a>
+        </div>
+        <div class="clearfix"></div>
+    </div> <!--commonbrder-->
+    </div> <!--tcode-->
+</div> <!--tacerrs-->
+    
+    <!--contact-->
+
+
+    <div class="animsec"   id="contact"></div>
+
+    <div class="t-contact formanim c-padding">
+    <div class="row">  
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             <h4> Chennai </h4>
+             <div class="t-map">    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2198531834233!2d80.26572331410772!3d13.021666990823036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267db05b0cfe5%3A0x5f201ffcc7184dae!2sZariVastram!5e0!3m2!1sen!2sin!4v1507116986287"  style="border:0" allowfullscreen></iframe>
+            </div>
+             <div class="addr">
+            <p> 85/40 , Raja Anamalai Puram 1st main road,</p>
+            <p> R A Puram, </p>
+            <p> Chennai, Tamil Nadu </p>
+            <p> 600028 </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4> Hyderabad </h4>
+            <div class="t-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5210388220526!2d78.39193211417704!3d17.43475848805027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915a9891acdf%3A0x957e16124ef8f466!2sTres+Mercari+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1507116805775" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="addr">
+            <p> Akshaya Arcade, Plot No: 5,3rd Floor, </p>
+            <p> Amar Society, Kavuri Hills , Madhapur</p>
+            <p> Hyderbad, Telangana , India.</p>
+            <p> 500081 </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="t-form c-padding">
+    <div class="commonbrder hoverbg">
+    <div class="border1">
+        <div class="head"><h3> <span class="fbig">C</span>ONTACT <span class="fbig">U</span>S 
+        </h3></div>
+        <div class="borderline"></div>
+        <div class="borderright fright"></div>
+     </div> <!--brder1-->
+
+        <form id="contactform">
+      <div class="border2">
+        <div class="borderleft fleft"></div>
+        <div class="btext">
+        <div class="width">
+         <div class="form-group"> 
+                <div class="row">   
+                    <div class="col-xs-12 col-sm-6">
+                    <input type="text"  id="namefield1" name="fname" class="form-control" placeholder="First Name" required>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6">
+                <input type="text"  id="namefield2" name="lname" class="form-control" placeholder="Last Name" required>
+                    </div>  
+            <div class="clearfix"></div>
+                </div>
+        </div> <!--form-group-->
+         <div class="form-group"> 
+                <div class="row">   
+                    <div class="col-xs-12 col-sm-12">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email Id" required>
+							<div class="error" style="color:red;padding-top:10px;display:none;">Wrong Email Id</div>
+                    </div>  
+			
+            <div class="clearfix"></div>
+                </div>
+        </div> <!--form-group-->
+        <div class="form-group"> 
+                <div class="row">   
+                    <div class="col-xs-12 col-sm-12">
+                        <textarea class="form-control"  name="message" placeholder="Message" required></textarea>
+                    </div>   
+            <div class="clearfix"></div>
+                </div>
+        </div> <!--form-group-->
+        <div class="" style="text-align: center;">
+          <input type="submit" value="Submit" id="submit">
+         </div>
+    <div class="alert alert-danger fade in" id="errormessage">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+       <strong>Error!</strong> A problem has been occurred while submitting your data.
+    </div>
+
+    <div class="alert alert-success fade in" id="successmessage">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>Your email has been sent.</strong>  We will look into the matter and revert accordingly. Thank you for your interest in <strong> Tres Mercari Group!</strong>
+    </div>
+
+
+        </div> <!--width-->
+        </div>
+
+        <div class="borderline"></div>
+
+        <div class="borderlink posrel"><div>
+        <button style="visibility: hidden;"> 
+            <span class="fbig">S</span>END
+            <img class="f2 cf" src="img/ahead-copper.png" alt="image">
+            <img class="f1 cf" src="img/ahead-white.png" alt="image">
+        </button>
+        </div></div>
+        <div class="clearfix">
+
+</div>
+
+     </div> <!--brder2-->
+        </form>
+
+    </div>
+
+    </div> <!--tform-->
+
+</div> <!--cfluid-->
+</div>  <!--tbody-->
+
+
+    <footer>
+        <div class="t-foot"> 
+          <div class="container-fluid"> 
+            <figure><a href="index.html"><img src="img/flogo.png" alt="image"></a></figure>
+          </div>
+         <div class="i-link">
+                <ul>
+                    
+                    <li><a href="https://www.facebook.com/tresmercari/"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.linkedin.com/company/7795429/">   <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                </ul> 
+              </div>
+       </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fadethis.min.js"></script>
+    <script src="js/index.js"></script>
+  <script>
+    $(document).ready(function(){
+                $("#successmessage").hide();
+                $("#errormessage").hide();
+    $("#contactform").submit(function(e){
+     e.preventDefault();
+                 e.stopPropagation();
+     var data = $('form').serialize();
+     //console.log(data);
+    $.post( "form.php", data)
+      .done(function( phpdata) {
+        console.log( "Data Loaded: " + phpdata);
+                    $("#successmessage").show();
+                    $("form").trigger("reset");
+      })  
+      .fail(function() {
+                  $("#errormessage").show();
+      console.log( "error from mail function" );
+      })
+      .always(function() {
+        console.log( "finished submitting the form" );
+      });
+    });});
+  </script>
+  
+</body>
+
+
+</html>
